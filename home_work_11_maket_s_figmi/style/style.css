@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:wght@100;200;300;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 312px;
+}
+.social{
+    display: flex;
+    width: 300px;
+    justify-content:space-evenly;
+
+}
+.first_section{
+    background: #4FBFA5;
+    height: 800px;
+}
+.menu{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 312px;
+}
+a{
+    text-decoration: none;
+}
+.mainImg{
+    padding: 0 20% 253px 0;
+}
+.text h2 {
+    font-family: 'ABeeZee';
+    font-style: italic;
+    color: white;
+}
+.text p {
+    color: white; 
+    font-family: 'ABeeZee';
+    font-style: italic;
+}
+.text{
+    display: flex;
+}
+.textLeft{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around;
+    padding: 125px 0 253px 20%;
+}
+.second_section{
+    display: flex;
+    justify-content:space-between;
+    height: 300px;
+    width: 1450px;
+    padding: 0 0 0 10%;
+}
+h1{
+    color: #00868A;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+   
+}
+.img1,.img2,.img3,.img4 {
+    background-color: #00868A;
+}
+.second_section p{
+    color: white;
+    font-family: 'ABeeZee';
+    font-style: italic;
+}
+.arrow{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+   width: 150px;
+   padding: 0 0 0 5%;
+}

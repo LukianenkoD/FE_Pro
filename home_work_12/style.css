@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.position{
+display: flex;
+justify-content:space-evenly;
+
+}
+.imges-action{
+height:100px;
+
+   
+} 
+.active{
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    height:1000px;
+}

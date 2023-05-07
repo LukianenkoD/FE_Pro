@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:wght@100;200;300;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black; 
+    font-style: Lato;
+}
+
+.headerHead{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    align-items: center;
+    height: 100px;
+    justify-items: center;
+}
+.head{
+    display: grid;
+    justify-content: center;
+}
+.menu{
+    display: grid; 
+    grid-template-columns: 76px 65px 58px 116px 91px;
+    gap: 20px;
+}
+.connect{
+    display: grid;
+ 
+    border: 1px solid black; 
+    border-radius: 25px; 
+    font-style: Lato;
+    height: 50px;
+    width: 173px;
+    justify-content: center;
+    align-items: center;
+}
+.connect1{
+    display: grid;
+ 
+    border: 1px solid white; 
+    color: white;
+    border-radius: 25px; 
+    font-style: Lato;
+    height: 50px;
+    width: 173px;
+    justify-content: center;
+    align-items: center;
+    grid-row: 4;
+}
+
+a{
+    text-decoration: none;
+}
+.section{
+    
+    height: 100px;
+    padding: 111px 20px 121px 99px
+   
+}
+.section1{
+    
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(360px,370px));
+    gap: 30px;
+    justify-content: center;
+    min-width: 1350px;
+    max-width: 1550px;
+    height: 800px;
+}
+.bo{
+    width: 173px; 
+    color: white;
+}
+.text{
+    z-index: 1;
+
+}
+.buhService1{
+    display: grid;
+grid-template-rows: 100px 100px 100px;
+justify-items: center;
+}
+.section2{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 565px 265px 265px;
+    gap: 30px;
+    justify-content: center;
+    height: 600px;
+
+}
+.zkp{
+    background-color: #EBEBEB;
+    display: grid;
+    align-items: center;
+    justify-items: start;
+    justify-content: center;
+    align-content: space-around;
+}
+.about{
+    grid-row: 1/3;
+}
+#connect2{
+    border: 1px solid #005FA3;
+    color: #005FA3;
+   
+}

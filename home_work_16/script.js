@@ -27,18 +27,13 @@ function sumEvenSquares(num){
 };
 console.log(even+' sum: '+sumEvenSquares(even));
 // 4)Напишите функцию с именем delayedUpperCase, которая принимает в качестве аргумента массив строк. Функция должна использовать метод forEach для перебора каждой строки в массиве и выводить на консоль версию строки в верхнем регистре с задержкой в 2 секунды.
-
 let arrayStringNeu = ["a","b","c","d","e"];
-function delayedUpperCase(argument){
-    let i = 0;
-    argument.forEach((element,index,array)=>{
-        if(index>=i){
-            setTimeout(()=>{console.log(element.toUpperCase());
-            },5000);
-        }
-    });
-}
-delayedUpperCase(arrayStringNeu);
+
+arrayStringNeu.forEach((element, index) => {
+    setTimeout(() => {
+        console.log(element.toUpperCase())
+    }, 2000 * (index + 1))
+});
 
 // 5)Напишите функцию countDown, принимающую в качестве аргумента число. Функция должна использовать метод setTimeout для печати чисел от заданного числа до 1, с задержкой в 1 секунду между каждым числом.
 
@@ -57,3 +52,5 @@ function filterNamesByLetter(array,letter){
     console.log(chooseLetterName);
 }
 filterNamesByLetter(arrayStringNames,"M");
+
+

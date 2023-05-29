@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form,
+.form2 {
+    max-width: 700px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 60px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    background-color: yellow;
+}
+input::placeholder{
+    color: black;
+}
+.btn{
+    width: 100%;
+    height: 30px;
+    background-color: goldenrod; 
+}
+.productCar{
+    max-width: 700px;
+    width: 100%;
+    margin: 50px auto;
+    background-color: aquamarine;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position:relative;
+}
+.close {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    position:absolute;
+    right: -13px;
+    top: -16px;
+    opacity: 0;
+    transition: all 1s;
+}
+.products{
+    max-width: 700px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 60px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.container-paragraph{
+ margin: 0 auto; 
+ width: 100%;
+ font-size: 30px; 
+}

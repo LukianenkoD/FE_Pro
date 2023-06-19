@@ -1,0 +1,55 @@
+
+.header-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+#input-id {
+    font-size: 14px;
+    transition: 1s;
+}
+
+#input-id-1{
+    font-size: 14px;
+    transition: 1s;
+}
+
+#input-id-2{
+    font-size: 14px;
+    transition: 1s;
+}
+
+#input-id:hover{
+background-color: rgb(207, 201, 201);
+font-size: 20px;
+}
+
+#input-id-1:hover{
+    background-color: rgb(207, 201, 201);
+    font-size: 20px;
+    }
+
+#input-id-2:hover{
+    background-color: rgb(207, 201, 201);
+    font-size: 20px;
+    }
+
+.section-div{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    justify-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .section-div{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }}

@@ -1,0 +1,30 @@
+.item{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color:antiquewhite;
+    margin: 10px;
+    padding: 10px;
+}
+.posts{
+    display: flex;
+    gap: 10px;
+    
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap:10px;
+    justify-items: center;
+}
+
+@media screen and (max-width: 1350px){
+    .posts{
+        grid-template-columns: repeat(5,1fr);
+        row-gap: 10px;
+    }} 
+@media screen and (max-width: 750px){
+        .posts{
+            grid-template-columns: repeat(2,1fr);
+            row-gap: 10px;
+        }} 

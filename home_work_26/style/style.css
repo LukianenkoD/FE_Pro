@@ -1,5 +1,6 @@
 .container {
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 * {
@@ -9,10 +10,12 @@
 }
 
 .header {
+  margin-right: 20px;
+  margin-left: 20px;
   display: flex;
   justify-content: space-around;
   align-items: normal;
-  gap: 0;
+  gap: 50px;
 }
 @media (max-width: 1140px) {
   .header {
@@ -172,6 +175,7 @@
 }
 .section5__box {
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
 @media (max-width: 1200px) {

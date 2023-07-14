@@ -10,11 +10,13 @@
 //     max-width: 1440px;
 // }
 .header{
+    margin-right: 20px;
+    margin-left: 20px;
     @media (max-width: 1140px) {
         // display: block;
         flex-wrap: wrap;
           }
-    @include flex(space-around);
+    @include flex(space-around,normal,50px);
     &__logo{
         display: flex;
         align-items: center;
@@ -148,6 +150,7 @@
     }
     &__box{
         display: flex;
+        justify-content: center;
         gap: 30px;
         @media (max-width: 1200px) {
             // display: block;

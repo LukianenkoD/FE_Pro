@@ -1,0 +1,15 @@
+.virtual{
+    display: flex;
+    margin-top: 70px;
+    gap:19px;
+    @include small-screen{
+        flex-wrap: wrap;
+    }
+    &__div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 23px;
+        margin-top: 200px;
+    }
+}

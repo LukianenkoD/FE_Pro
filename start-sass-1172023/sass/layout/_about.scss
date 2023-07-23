@@ -1,0 +1,45 @@
+.about-content{
+    background-color: $header-input;
+    &__div{
+        display: flex;
+        gap: 120px;
+        &_linie{
+            // max-width: 150px;
+            margin-top: 44px;
+            margin-left: 60px;
+            // margin: 40px 150px 125px 60px;
+        }
+        &_text{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 30px;
+            max-width: 730px;
+            margin-top: 61px;
+            margin-right: 60px;
+            // margin: 61px 70px 505px 370px;
+        } 
+        h2{
+            min-width: 100px;
+        }
+    }
+    
+};
+#text-imagination{
+    background: $gradient;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
+          max-width: 450px;
+          margin-top: 91px;
+          margin-bottom: 92px;
+          margin-left: 60px;
+}
+.imagination{
+    display: flex;
+    gap: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 45px;
+}

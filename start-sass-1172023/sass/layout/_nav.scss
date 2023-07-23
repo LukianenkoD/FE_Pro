@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    .nav-burger{
+        display: none;
+        img{
+            width: 40px;
+            filter: brightness(0) invert(1);
+        }
+        @include medium-screen{
+            display: block;
+        }
+    }
+    .nav-menu{
+        @include medium-screen{
+            display: none;
+        }
+        ul{
+            gap: 30px;
+            @include medium-screen{
+                flex-direction: column;
+                position: absolute;
+                top:80px;
+                left: 30px;
+                background-color: $blue-bg;
+                padding: 25px;
+                gap: 6px;
+            }
+
+        }
+    }
+}
+
+.show{
+    display: block !important;
+}

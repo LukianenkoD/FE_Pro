@@ -1,0 +1,27 @@
+p{
+    color: $text-color;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+a{
+    text-decoration: none;  
+    color: $nav-link;
+    font-weight: 500;
+    font-size: 18px;
+    &:hover{
+        opacity: 0.6;
+    }
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none; //list bez krujochkov
+}
+
+button{
+    cursor: pointer; //ukazatel dlia button
+}

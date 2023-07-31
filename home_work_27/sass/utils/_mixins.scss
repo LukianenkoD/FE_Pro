@@ -1,0 +1,40 @@
+// @mixin x-x-large{
+//     @media(max-width: 1200px){
+//         @content;
+//     }
+// }
+
+@mixin x-large{
+    @media(min-width: 1200px){
+        @content;
+    }
+}
+
+@mixin big-screen{
+    @media(min-width: 1010px) and (max-width:1199px){
+        @content;
+    }
+}
+
+@mixin medium-screen{
+    @media(min-width:989px){
+        @content;
+    }
+}
+
+@mixin small-screen{
+    @media(min-width:820px){
+        @content;
+    }
+}
+
+@mixin x-smal{
+    @media(min-width:660px)and (max-width:819px){
+        @content;
+    }
+}
+@mixin xx-smal{
+    @media(max-width:659px){
+        @content;
+    }
+}

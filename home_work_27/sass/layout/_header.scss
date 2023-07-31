@@ -1,0 +1,15 @@
+header{
+    padding: 20px 0 20px 0;
+    @include xx-smal{
+        padding: 20px 15px 20px 15px;
+    }
+    h1{
+        color: white;
+        @include x-smal{
+            font-size: larger;
+        }
+        @include xx-smal{
+            font-size: medium;
+        }
+    }
+}

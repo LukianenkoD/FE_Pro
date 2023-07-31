@@ -1,0 +1,109 @@
+.container {
+  margin: 0 auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 100% !important;
+  }
+}
+@media (min-width: 1010px) and (max-width: 1199px) {
+  .container {
+    width: 100% !important;
+  }
+}
+@media (min-width: 989px) {
+  .container {
+    width: 100% !important;
+  }
+}
+@media (min-width: 820px) {
+  .container {
+    width: 100% !important;
+  }
+}
+@media (min-width: 660px) and (max-width: 819px) {
+  .container {
+    width: 100% !important;
+  }
+}
+@media (max-width: 659px) {
+  .container {
+    width: 100% !important;
+  }
+}
+
+.containerH2 {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #274461;
+}
+
+section {
+  display: flex;
+}
+section h2 {
+  color: rgb(31, 31, 61);
+}
+@media (min-width: 660px) and (max-width: 819px) {
+  section h2 {
+    font-size: larger;
+  }
+}
+@media (max-width: 659px) {
+  section h2 {
+    font-size: medium;
+  }
+}
+section img {
+  max-width: 400px;
+  filter: brightness(1) invert(0.5);
+}
+section img:hover {
+  opacity: 0.4;
+}
+section .stonePc {
+  display: none;
+}
+section .shearsPc {
+  display: none;
+}
+section .paperPc {
+  display: none;
+}
+
+.show {
+  display: flex !important;
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px 0 20px 0;
+}
+@media (max-width: 659px) {
+  header {
+    padding: 20px 15px 20px 15px;
+  }
+}
+header h1 {
+  color: white;
+}
+@media (min-width: 660px) and (max-width: 819px) {
+  header h1 {
+    font-size: larger;
+  }
+}
+@media (max-width: 659px) {
+  header h1 {
+    font-size: medium;
+  }
+}/*# sourceMappingURL=main.css.map */
